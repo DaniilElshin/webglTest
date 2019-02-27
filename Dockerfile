@@ -25,8 +25,6 @@ ADD TemplateData/progressLogo.Dark.png /var/www/localhost/htdocs/TemplateData/pr
 ADD TemplateData/progressLogo.Light.png /var/www/localhost/htdocs/TemplateData/progressLogo.Light.png
 ADD TemplateData/webgl-logo.png /var/www/localhost/htdocs/TemplateData/webgl-logo.png
 
-ADD docker.jpg /var/www/localhost/htdocs/docker.jpg
-
 EXPOSE 80
 
 ENTRYPOINT ["/entrypoint.sh"]
